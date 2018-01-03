@@ -1,0 +1,53 @@
+<html>
+<head>
+	
+	<title>Exam Centre</title>
+	<style type="text/css">
+		.w1 {
+			float: left;
+			text-align: center;
+		}
+		h1 {
+			text-align: center;
+		}
+		.b1 {
+			position: relative;
+			top: 0px;
+			left: 400px;
+			padding: 30px;
+		}
+	</style>
+</head>
+<body>
+		<h1>Welcome to KSSS Examinations </h1>
+		<img src="img1.jpg" style="width: 500px; height: 300px; position: relative; top: 20px; left: 400px;">
+		<br />
+		<br />
+	<div class= "w1">
+		<br />
+		<br />
+		<button class = "b1"  type="button" onclick="sreg()">Student Registration</button>
+	</div>
+	<div class= "w1">
+		<br />
+		<br />
+		<button class = "b1"  type="button" onclick="attend()">Attend Examination</button>
+	</div>
+	
+</body>
+<script type="text/javascript">
+	function sreg() {
+		// body...
+		window.location = 'Registration.html';
+	}
+	function attend() {
+		// body...
+		window.location.assign("http://localhost:8080/login");
+	}
+	function result() {
+		// body...
+		window.location = 'result.html';
+	}
+	
+</script>
+</html>

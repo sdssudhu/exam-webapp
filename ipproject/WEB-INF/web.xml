@@ -1,0 +1,13 @@
+<web-app>
+
+<servlet>
+<servlet-name>register</servlet-name>
+<servlet-class>reg</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>register</servlet-name>
+<url-pattern>/ipproject</url-pattern>
+</servlet-mapping>
+
+</web-app>

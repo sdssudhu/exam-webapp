@@ -1,0 +1,19 @@
+<%@ page import="java.io.*,java.util.*,java.sql.*" %>
+<%@ page import="javax.servlet.http.*,javax.servlet.*" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/sql" prefix="sql" %>
+<html>
+<head>
+</head>
+<body>
+<h1>Rules </h1>
+
+
+<ol><li>No person will be allowed in an examination room during an examination except the candidates concerned and those supervising the examination.</li><li>Candidates must appear at the examination room at least twenty minutes before the commencement of the examination.</li><li>Candidates shall bring their photo identification (signed Photo ID) and place it in a conspicuous place on their desks. Photo identification may include any one of the following, as long as it contains a photo and a signature: current University of Toronto Photo ID (T-Card) OR up-to-date Passport (any country) OR current Driver’s License (any country) OR current Canadian health card (any province or territory).</li><li>Candidates shall place their watch or timepiece on their desks.</li><li>All coats and jackets should be placed on the back of each candidate’s chair. All notes and books, pencil cases, turned off cell phones, laptops and other unauthorized aids as well as purses should be stored inside candidate’s knapsack or large bag, which should then be closed securely and placed under candidate’s chair. Candidates are NOT allowed to have a pencil case on their desk and any pencil cases found on desks will be searched. All watches and timepieces on desks will be checked. Candidates are not allowed to touch their knapsack or bag or the contents until the exam is over. Candidates are not allowed to reach into the pockets or any part of their coat or jacket until the exam is over.<br></li><li>The Chief Presiding Officer has authority to assign seats to candidates.</li><li>Candidates shall not communicate with one another in any manner whatsoever during the&nbsp; examination. Candidates may not leave the examination room unescorted for any reason, and this includes using the washroom.</li><li>No materials or electronic devices shall be used or viewed during an examination, except those authorized by the Chief Presiding Officer or Examiner. &nbsp;Unauthorized materials include, but are not limited to: books, class notes, or aid sheets. &nbsp;Unauthorized electronic devices include, but are not limited to: cellular telephones, laptop computers, tablets, calculators, MP3 players (such as an iPod), Personal Digital Assistants (“PDA” such as a Palm Pilot or Blackberry), electronic dictionaries, Smart Watches and Smart Glasses.</li><li>Candidates who use or view any unauthorized materials or electronic devices while their examination is in progress - or who assist or obtain assistance from other candidates or from any unauthorized source - are liable to penalties under the Code of Behaviour on Academic Matters, including the loss of academic credit and suspension.</li><li>In general, candidates will not be permitted to enter an examination room later than fifteen minutes after the commencement of the examination, nor to leave except under supervision until at least half an hour after the examination has commenced.</li><li>Candidates shall remain seated at their desks during the final ten minutes of each examination.</li><li>At the conclusion of an examination, all writing shall cease.&nbsp; The Chief Presiding Officer may seize the papers of candidates who fail to observe this requirement, and a penalty may be imposed.</li><li>Examination books and other material issued for the examination shall not be removed from the examination room except by authority of the Chief Presiding Officer.<br></li></ol>
+
+<form action="login" method="post" >
+	<input type="hidden" value="${param.roll}" name="roll">
+	<input type="submit" name="submit" value="Start Test">
+</form>
+</body>
+</html>
