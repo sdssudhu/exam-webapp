@@ -1,0 +1,2 @@
+create table student(id int not null primary key AUTO_INCREMENT,studname char(100),email varchar(255),score int(5));
+create table quest(id varchar(255),studname char(100),email varchar(255),score int(5));
