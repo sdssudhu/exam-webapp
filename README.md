@@ -20,4 +20,4 @@ This result page can be printed. The questions are different for each attempt.
 
 The ipproject folder must be placed inside the web-apps folder of Apache Tomcat.
 
-The database is in sql.txt file which must be added to mysql database.
+The database is in student.sql.txt file which must be added to mysql database.
